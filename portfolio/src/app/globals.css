@@ -336,6 +336,8 @@ body,html{
     width: 100%;
 }
 
+
+
 .dynamic-secion{
     position: relative;
     width: 100%;
@@ -455,7 +457,7 @@ body,html{
 }
 
 .mobile-margin-20{
-    margin: 20px 0 ;
+    margin: 20px 0 150px 0;
 }
 
   }
