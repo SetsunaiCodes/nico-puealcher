@@ -1,0 +1,280 @@
+/*Init of body*/
+body{
+    margin: 0;
+    padding: 0;
+    color: var(--text-main);
+}
+
+/*debugging*/
+.debugging-red{
+    background-color: red;
+}
+
+.debugging-blue{
+    background-color: blue;
+}
+
+.debugging-green{
+    background-color: green;
+}
+
+/*Rooting*/
+:root{
+
+    /*Colors*/
+    --background: rgb(15, 15, 25);
+    --background-darker: rgb(11, 11, 19);
+    --background-highlight:rgb(26, 26, 43);
+    --text-main: rgb(247, 247, 247);
+    --text-secondary:  rgb(115, 122, 200);
+    --text-third:  rgb(93, 99, 163);
+    --blue-mid-dark: rgb(0,79,167);
+
+    /*Values*/
+    --margin-md: 50px;
+    --border-radius: 6px;
+    --line-thickness: 8px;
+    --line-width: 50px;
+
+}
+
+/*Flex classes*/
+.flex{
+    display: flex;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-a-center-j-start{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-a-start-j-center{
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.gap{
+    gap: 15px;
+}
+
+/*Sectioning*/
+.static-section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.dynamic-secion{
+    position: relative;
+    width: 100%;
+}
+
+.dynamic-container{
+    width: 55%;
+}
+
+.relative{
+    position: relative;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.height-50vh{
+    height: 50vh;
+}
+.no-margin{
+    margin: 0;
+}
+
+.margin-timeline{
+    margin-left: var(--line-width);
+}
+.margin-t-20{
+    margin-top: 20px;
+}
+
+.quad-box{
+    font-size: 55px;
+    color: var(--text-secondary);
+    background-color: var(--background-highlight);
+    border-radius: var(--border-radius);
+    margin-top: var(--margin-md);
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
+/*Text*/
+.rainbow-heading{
+    margin: 0;
+    padding: 0;
+    font-size: 110px;
+    background: linear-gradient(to right, #fc72ff, #8f68ff, #487bff,#8f68ff, #fc72ff );
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 7s linear infinite;
+    
+}
+
+.text-heading-md{
+    font-size: 60px;
+    color: var(--text-secondary);
+}
+
+.default-text{
+    color: var(--text-third);
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.arrow{
+    transition: transform 0.3s;
+}
+
+.arrow:hover{
+    transform: translateY(10px);
+}
+
+
+
+/*Backgrounds*/
+.bg-dark{
+    background-color: var(--background);
+}
+
+.bg-dark-2{
+    background-color: var(--background-darker);
+}
+
+/*Images*/
+.pb{
+    margin-top: var(--margin-md);
+    position: relative;
+    z-index: 3;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.timeline-image{
+    height: 400px;
+    width: 400px;
+    border-radius: var(--border-radius);
+}
+
+/*Buttons*/
+
+.btn-rounded{
+    margin-top: var(--margin-md);
+}
+
+/*--Individual manipulation--*/
+.naming p{
+    color: var(--text-secondary);
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.timeline-entry-container{
+    padding-bottom: var(--margin-md);
+    border-left: var(--line-thickness) solid var(--background);
+}
+.timeline-entry-divider{
+    height: var(--line-thickness);
+    width: var(--line-width);
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    background-color: var(--background);
+}
+.projects img{
+    height: 500px;
+    object-fit: contain;
+    border-radius: var(--border-radius);
+}
+
+.projects-container{
+    padding: 10px 15px;
+    height: 480px;
+    width: 500px;
+    background-color: var(--background-highlight);
+    border-radius: var(--border-radius);
+
+}
+
+.projects button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: var(--border-radius);
+    background-color: var(--text-secondary);
+    border: none;
+    color: var(--text-main);
+    font-size: 30px;
+}
+
+.projects button:hover{
+    background-color: rgb(96, 102, 166);
+    cursor: pointer;
+}
+
+.projects span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: var(--text-secondary);
+}
+
+.projects h1{
+    font-size: 30px;
+    color: var(--text-secondary);
+}
+
+.projects p{
+    color: var(--text-third);
+}
+
+.project-card{
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+}
+
+
+
+/*--Keyframes--*/
+@keyframes animate-gradient {
+
+
+    0%{
+        background-position: 0%;
+    }
+    100% {
+        background-position: 200%;
+    }
+    
+}
