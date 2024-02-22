@@ -116,7 +116,7 @@ const Projects: React.FC = () => {
 
   return (
     <div className="static-section bg-dark flex mobile-flex-column flex-center">
-      <div className="dynamic-container">
+      <div className="dynamic-container mobile-margin-20">
         <ProjectsList
           projects={projectData}
           onSelect={(project) => setSelectedProject(project)}

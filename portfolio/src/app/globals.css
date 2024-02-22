@@ -355,15 +355,15 @@ body,html{
 .projects img{
     margin: 10px;
     padding: 0;
-    height: 300px;
-    width: 300px;
+    height: 270px;
+    width: 270px;
 
 }
 
 .projects-container{
     margin: 0;
     height: 400px;
-    width: 300px;
+    width: 270px;
 }
 
 .mobile-timeline-image{
@@ -417,8 +417,8 @@ body,html{
 
 .pb{
     margin: 10px;
-    height: 280px;
-    width: 280px;
+    height: 200px;
+    width: 200px;
 }
 
 .mobile-flex-wrap{
@@ -426,9 +426,9 @@ body,html{
 }
 
 .quad-box{
-    height: 60px;
-    width: 60px;
-    font-size: 40px;
+    height: 50px;
+    width: 50px;
+    font-size: 35px;
 }
 .arrow{
     font-size: 30px;
@@ -440,8 +440,8 @@ body,html{
 }
 
 .project-card{
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
 }
 
 .margin-b-20{
@@ -450,6 +450,10 @@ body,html{
 
 .mobile-project-list{
     margin: 0;
+}
+
+.mobile-margin-20{
+    margin: 20px 0 ;
 }
 
   }
