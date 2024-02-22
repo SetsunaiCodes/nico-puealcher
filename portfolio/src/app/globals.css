@@ -388,6 +388,8 @@ body,html{
 }
 
 .default-text{
+    font-size: 15px;
+    font-weight: 600;
     width: 300px;
 }
 
