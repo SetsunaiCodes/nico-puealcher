@@ -64,7 +64,7 @@ export default function Highlight() {
     <div className="static-section bg-dark  flex flex-center flex-column mobile-highlight-container">
       <div className="dynamic-container  flex flex-center flex-column">
         <div className="naming">
-          <p>I'm</p>
+          <p>Im</p>
           <h1 className="rainbow-heading">Nico Puelacher</h1>
           <div className="flex flex-a-center mobile-flex-column">
             <p>Webdeveloper | Appdeveloper | PyGamedeveloper |</p>
