@@ -18,7 +18,13 @@ function GalleryElement(post: Doc) {
   };
 
   return (
-    <div style={{ width: "49%", position: "relative", overflow: "hidden" }}>
+    <div
+      style={{
+        width: "49%",
+        position: "relative",
+        overflow: "hidden",
+      }}
+    >
       <Link href={path}>
         <div
           className="gallery-image-container"
