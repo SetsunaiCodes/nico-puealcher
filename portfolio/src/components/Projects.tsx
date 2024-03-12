@@ -41,6 +41,26 @@ const projectData: Project[] = [
     url: "https://abstaendeimr3.maxoverlack.dev/",
     repo: "https://github.com/IAmMajo/Abstaende-Im-R3",
   },
+
+  {
+    img: "/PolyPlay.png",
+    icon: "/PolayPlayBranded.png",
+    title: "PolyPlay",
+    des: "To pass the Advanced Programming module, it was necessary, among other things, to rebuild the GDR classic PolyPlay Butterflies. I decided to give the game a more modern look and more options for game modes. The goal is simple: collect as many butterflies as possible.",
+    Icon: FaHtml5,
+    url: "https://poly-play-schmetterlinge-nico-p.netlify.app",
+    repo: "https://github.com/SetsunaiCodes/PolyPlay_Schmetterlinge",
+  },
+
+  {
+    img: "/Pi.png",
+    icon: "/PiBranded.png",
+    title: "Pi",
+    des: "The first real project I had the opportunity to develop at university, together with two fellow students, was a website that continuously outputs further decimal places of the number Pi as long as it runs.",
+    Icon: FaHtml5,
+    url: "pi.maxoverlack.dev/",
+    repo: "https://github.com/IAmMajo/Pi",
+  },
 ];
 
 const SelectedProject: React.FC<{ project: Project }> = ({ project }) => {

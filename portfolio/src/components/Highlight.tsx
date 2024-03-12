@@ -18,13 +18,14 @@ import { BiLogoTypescript } from "react-icons/bi";
 function SocialMediaList() {
   return (
     <div className="social-media-nav flex flex-center">
-      <a href="">
+      {/*TODO: Hier fehlt der Link.*/}
+      <a href="#">
         <FaDiscord />
       </a>
-      <a href="https://www.instagram.com/nicojin.css/">
+      <a href="https://www.instagram.com/nicojin.css/" target="_blank">
         <FaInstagram />
       </a>
-      <a href="https://github.com/SetsunaiCodes">
+      <a href="https://github.com/SetsunaiCodes" target="_blank">
         <FaGithub />
       </a>
     </div>
@@ -42,7 +43,9 @@ function LanguageCard(props: LanguageCardProps) {
     </div>
   );
 }
-
+{
+  /*TODO: Boolean check ob es hier um eine Main Focus card geht. Wenn ja, soll die onHover Gelb Golden werden*/
+}
 function LanguageCardList() {
   return (
     <div className="mobile-lang-card-list flex flex-center mobile-flex-wrap gap">
@@ -64,7 +67,7 @@ export default function Highlight() {
     <div className="static-section bg-dark  flex flex-center flex-column mobile-highlight-container">
       <div className="dynamic-container  flex flex-center flex-column">
         <div className="naming">
-          <p>Im</p>
+          <p>I am</p>
           <h1 className="rainbow-heading">Nico Puelacher</h1>
           <div className="flex flex-a-center mobile-flex-column">
             <p>Webdeveloper | Appdeveloper | PyGamedeveloper |</p>

@@ -12,7 +12,11 @@ function TimelineEntry(props: TimeLineEntryProps) {
         <p className="text-heading-md text-bold no-margin">{props.year}</p>
       </div>
       <div className="margin-timeline flex gap mobile-timeline-image-content">
-        <img className="timeline-image mobile-timeline-image" src={props.img} alt="undefined" />
+        <img
+          className="timeline-image mobile-timeline-image"
+          src={props.img}
+          alt="undefined"
+        />
         <p className="no-margin default-text">{props.des}</p>
       </div>
     </div>
@@ -21,7 +25,10 @@ function TimelineEntry(props: TimeLineEntryProps) {
 
 export default function Timeline() {
   return (
-    <div id="timeline" className="dynamic-secion bg-dark-2 flex flex-a-start-j-center">
+    <div
+      id="timeline"
+      className="dynamic-secion bg-dark-2 flex flex-a-start-j-center"
+    >
       <div className="dynamic-container">
         <TimelineEntry
           year="2023"
@@ -32,7 +39,7 @@ export default function Timeline() {
         <TimelineEntry
           year="2023"
           img="/Abi.png"
-          des="In 2022, I successfully completed my high school diploma at UNESCO high school in Kamp-Lintfort and, on top of that, was given the opportunity to deliver a speech in which I could thank my fellow students and specially selected teachers for successfully guiding us through the time of Covid and making it possible for us to stand on this stage on that day. Until today I'm proud about what me and my fellow students have achieved within these three years."
+          des="In 2023, I successfully completed my high school diploma at UNESCO high school in Kamp-Lintfort and, on top of that, was given the opportunity to deliver a speech in which I could thank my fellow students and specially selected teachers for successfully guiding us through the time of Covid and making it possible for us to stand on this stage on that day. Until today I'm proud about what me and my fellow students have achieved within these three years."
         />
       </div>
     </div>
