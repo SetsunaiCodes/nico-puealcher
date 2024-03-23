@@ -3,7 +3,6 @@
 import blog__abstandR3Mdx from './blog__AbstandR3.mdx.json' assert { type: 'json' }
 import blog__galaxiaMdx from './blog__Galaxia.mdx.json' assert { type: 'json' }
 import blog__piMdx from './blog__Pi.mdx.json' assert { type: 'json' }
-import blog__polyPlayMdx from './blog__PolyPlay.mdx.json' assert { type: 'json' }
 import blog__starGuardMdx from './blog__StarGuard.mdx.json' assert { type: 'json' }
 
-export const allDocs = [blog__abstandR3Mdx, blog__galaxiaMdx, blog__piMdx, blog__polyPlayMdx, blog__starGuardMdx]
+export const allDocs = [blog__abstandR3Mdx, blog__galaxiaMdx, blog__piMdx, blog__starGuardMdx]
